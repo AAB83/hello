@@ -16,3 +16,4 @@ jobs:
       # ls -la выведет содержимое текущего репозитория
       - run: cd hello/
       - run: ls -la
+      - run: make say-hello
